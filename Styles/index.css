@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../Images/Leaves.jpg);
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    background: goldenrod;
+    height: 100px;
+    width: 100vw;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    padding: 20px;
+    text-align: center;
+}
+
+
+li {
+    background: greenyellow;
+    border: 1px solid black;
+    width: 25%;
+    display: block;
+    float: left;
+    text-align: center;
+    font-size: 1.5em;
+
+}
+
+main {
+    width: 95vw;
+    height: 1200px;
+    margin: auto;
+}
+
+.section-left {
+    height: 800px;
+    width: 75%;
+    float: left;
+    background: url(../Images/Sloths.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 2px dashed black;
+    margin-top: 200px;
+}
+
+.section-right {
+    float: right;
+    width: 25%;
+    height: 1200px;
+    background: goldenrod;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+h2 {
+    font-size: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.paragraph-1 {
+    font-size: 1.3em;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkblue;
+
+}
+
+.paragraph-2 {
+    font-size: 1.3em;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkolivegreen;
+}
+
+footer {
+    background: goldenrod;
+    height: 100px;
+    width: 100vw;
+    margin-top: 20px;
+    border-top: 2px solid black;
+}
